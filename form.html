@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <style>
+       
+
+    </style>
+</head>
+<body>
+    <center><h1><strong>Form in HTML</strong></h1></center>
+    <form action="/submit.html">
+        <table>
+            <tr>
+                <td>
+                    Enter name: 
+                    <input type="text" placeholder="ABC" name=""/>
+                    Enter email: 
+                    <input type="email" placeholder="abc@gmail.com" name=""/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter phone no.:
+                    <input type="number" ame="phone" id="phone" placeholder="9876543210"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Address:
+                    <textarea name="address" id="address" placeholder=" "></textarea>
+                </td>
+            <tr>
+                <td>
+                    select your gender: 
+                    <input type="radio" name="gender"/>Male
+                    <input type="radio" name="gender"/>Female
+                    <input type="radio" name="gender"/>Other
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>
+                    DOB:
+                    <input type="date"/>
+                    Select time: 
+                    <input type="time"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Amenities:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                
+                    <input type="checkbox" id="parking" name="parking" value="Parking">
+                    <label for="vehicle1"> Parking</label>
+                </td>
+            </tr>
+                <td>
+                    <input type="checkbox" id="lift" name="lift" value="Lift">
+                    <label for="vehicle2"> Lift</label>
+                </td>
+            <tr>
+                <td>
+                    <input type="checkbox" id="abc" name="abc" value="ABC">
+                    <label for="vehicle3"> ABC</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="pqr" name="pqr" value="PQR">
+                    <label for="vehicle3"> PQR</label>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="city">Select City:</label>
+                    <select id="city">
+                        <option value="city-name">Select City Name</option>
+                        <option value="jalgaon">Jalgaon</option>
+                        <option value="auragabad">Aurangabad</option>
+                        <option value="thane">Thane</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="color">Choose color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#000000">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Upload a resume:</label>
+                    <input type="file" id="resume" name="resume" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<footer>
+    <center>
+        <button type="button" id="manul">Manual</button>
+        <button type="button" id="submit" type="submit">Submit</button>
+        <button type="button" id="clear">Clear</button>
+    </center>        
+</footer>
+</html>
